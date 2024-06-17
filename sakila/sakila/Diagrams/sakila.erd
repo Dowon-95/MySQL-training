@@ -1,0 +1,1111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<diagram version="1" name="sakila.erd">
+	<entities>
+		<data-source id="mysql8-1900cbeac81-5659ecef0f80f2c5">
+			<entity id="1" name="ADMINISTRABLE_ROLE_AUTHORIZATIONS" fq-name="information_schema.ADMINISTRABLE_ROLE_AUTHORIZATIONS" order="0" font="Segoe UI:9:0" x="8645" y="2189">
+				<path name="information_schema"/>
+			</entity>
+			<entity id="2" name="APPLICABLE_ROLES" fq-name="information_schema.APPLICABLE_ROLES" order="1" font="Segoe UI:9:0" x="8967" y="2189">
+				<path name="information_schema"/>
+			</entity>
+			<entity id="3" name="CHARACTER_SETS" fq-name="information_schema.CHARACTER_SETS" order="2" font="Segoe UI:9:0" x="8967" y="1089">
+				<path name="information_schema"/>
+			</entity>
+			<entity id="4" name="CHECK_CONSTRAINTS" fq-name="information_schema.CHECK_CONSTRAINTS" order="3" font="Segoe UI:9:0" x="9371" y="1089">
+				<path name="information_schema"/>
+			</entity>
+			<entity id="5" name="COLLATION_CHARACTER_SET_APPLICABILITY" fq-name="information_schema.COLLATION_CHARACTER_SET_APPLICABILITY" order="4" font="Segoe UI:9:0" x="1872" y="948">
+				<path name="information_schema"/>
+			</entity>
+			<entity id="6" name="COLLATIONS" fq-name="information_schema.COLLATIONS" order="5" font="Segoe UI:9:0" x="1197" y="1935">
+				<path name="information_schema"/>
+			</entity>
+			<entity id="7" name="COLUMN_PRIVILEGES" fq-name="information_schema.COLUMN_PRIVILEGES" order="6" font="Segoe UI:9:0" x="1546" y="1935">
+				<path name="information_schema"/>
+			</entity>
+			<entity id="8" name="COLUMN_STATISTICS" fq-name="information_schema.COLUMN_STATISTICS" order="7" font="Segoe UI:9:0" x="9716" y="1089">
+				<path name="information_schema"/>
+			</entity>
+			<entity id="9" name="COLUMNS" fq-name="information_schema.`COLUMNS`" order="8" font="Segoe UI:9:0" x="8350" y="3773">
+				<path name="information_schema"/>
+			</entity>
+			<entity id="10" name="COLUMNS_EXTENSIONS" fq-name="information_schema.COLUMNS_EXTENSIONS" order="9" font="Segoe UI:9:0" x="7990" y="1477">
+				<path name="information_schema"/>
+			</entity>
+			<entity id="11" name="ENABLED_ROLES" fq-name="information_schema.ENABLED_ROLES" order="10" font="Segoe UI:9:0" x="10023" y="1089">
+				<path name="information_schema"/>
+			</entity>
+			<entity id="12" name="ENGINES" fq-name="information_schema.ENGINES" order="11" font="Segoe UI:9:0" x="8350" y="1477">
+				<path name="information_schema"/>
+			</entity>
+			<entity id="13" name="EVENTS" fq-name="information_schema.EVENTS" order="12" font="Segoe UI:9:0" x="10023" y="3753">
+				<path name="information_schema"/>
+			</entity>
+			<entity id="14" name="FILES" fq-name="information_schema.FILES" order="13" font="Segoe UI:9:0" x="10390" y="4337">
+				<path name="information_schema"/>
+			</entity>
+			<entity id="15" name="INNODB_BUFFER_PAGE" fq-name="information_schema.INNODB_BUFFER_PAGE" order="14" font="Segoe UI:9:0" x="7666" y="3783">
+				<path name="information_schema"/>
+			</entity>
+			<entity id="16" name="INNODB_BUFFER_PAGE_LRU" fq-name="information_schema.INNODB_BUFFER_PAGE_LRU" order="15" font="Segoe UI:9:0" x="6914" y="3793">
+				<path name="information_schema"/>
+			</entity>
+			<entity id="17" name="INNODB_BUFFER_POOL_STATS" fq-name="information_schema.INNODB_BUFFER_POOL_STATS" order="16" font="Segoe UI:9:0" x="9371" y="4397">
+				<path name="information_schema"/>
+			</entity>
+			<entity id="18" name="INNODB_CACHED_INDEXES" fq-name="information_schema.INNODB_CACHED_INDEXES" order="17" font="Segoe UI:9:0" x="40" y="1099">
+				<path name="information_schema"/>
+			</entity>
+			<entity id="19" name="INNODB_CMP" fq-name="information_schema.INNODB_CMP" order="18" font="Segoe UI:9:0" x="8645" y="1477">
+				<path name="information_schema"/>
+			</entity>
+			<entity id="20" name="INNODB_CMP_PER_INDEX" fq-name="information_schema.INNODB_CMP_PER_INDEX" order="19" font="Segoe UI:9:0" x="10390" y="1925">
+				<path name="information_schema"/>
+			</entity>
+			<entity id="21" name="INNODB_CMP_PER_INDEX_RESET" fq-name="information_schema.INNODB_CMP_PER_INDEX_RESET" order="20" font="Segoe UI:9:0" x="10727" y="1925">
+				<path name="information_schema"/>
+			</entity>
+			<entity id="22" name="INNODB_CMP_RESET" fq-name="information_schema.INNODB_CMP_RESET" order="21" font="Segoe UI:9:0" x="8967" y="1477">
+				<path name="information_schema"/>
+			</entity>
+			<entity id="23" name="INNODB_CMPMEM" fq-name="information_schema.INNODB_CMPMEM" order="22" font="Segoe UI:9:0" x="9371" y="1477">
+				<path name="information_schema"/>
+			</entity>
+			<entity id="24" name="INNODB_CMPMEM_RESET" fq-name="information_schema.INNODB_CMPMEM_RESET" order="23" font="Segoe UI:9:0" x="9716" y="1477">
+				<path name="information_schema"/>
+			</entity>
+			<entity id="25" name="INNODB_COLUMNS" fq-name="information_schema.INNODB_COLUMNS" order="24" font="Segoe UI:9:0" x="40" y="2199">
+				<path name="information_schema"/>
+			</entity>
+			<entity id="26" name="INNODB_DATAFILES" fq-name="information_schema.INNODB_DATAFILES" order="25" font="Segoe UI:9:0" x="2262" y="946">
+				<path name="information_schema"/>
+			</entity>
+			<entity id="27" name="INNODB_FIELDS" fq-name="information_schema.INNODB_FIELDS" order="26" font="Segoe UI:9:0" x="380" y="1099">
+				<path name="information_schema"/>
+			</entity>
+			<entity id="28" name="INNODB_FOREIGN" fq-name="information_schema.INNODB_FOREIGN" order="27" font="Segoe UI:9:0" x="9716" y="1273">
+				<path name="information_schema"/>
+			</entity>
+			<entity id="29" name="INNODB_FOREIGN_COLS" fq-name="information_schema.INNODB_FOREIGN_COLS" order="28" font="Segoe UI:9:0" x="10390" y="1089">
+				<path name="information_schema"/>
+			</entity>
+			<entity id="30" name="INNODB_FT_BEING_DELETED" fq-name="information_schema.INNODB_FT_BEING_DELETED" order="29" font="Segoe UI:9:0" x="40" y="975">
+				<path name="information_schema"/>
+			</entity>
+			<entity id="31" name="INNODB_FT_CONFIG" fq-name="information_schema.INNODB_FT_CONFIG" order="30" font="Segoe UI:9:0" x="2663" y="945">
+				<path name="information_schema"/>
+			</entity>
+			<entity id="32" name="INNODB_FT_DEFAULT_STOPWORD" fq-name="information_schema.INNODB_FT_DEFAULT_STOPWORD" order="31" font="Segoe UI:9:0" x="380" y="975">
+				<path name="information_schema"/>
+			</entity>
+			<entity id="33" name="INNODB_FT_DELETED" fq-name="information_schema.INNODB_FT_DELETED" order="32" font="Segoe UI:9:0" x="860" y="970">
+				<path name="information_schema"/>
+			</entity>
+			<entity id="34" name="INNODB_FT_INDEX_CACHE" fq-name="information_schema.INNODB_FT_INDEX_CACHE" order="33" font="Segoe UI:9:0" x="10023" y="1477">
+				<path name="information_schema"/>
+			</entity>
+			<entity id="35" name="INNODB_FT_INDEX_TABLE" fq-name="information_schema.INNODB_FT_INDEX_TABLE" order="34" font="Segoe UI:9:0" x="10390" y="1477">
+				<path name="information_schema"/>
+			</entity>
+			<entity id="36" name="INNODB_INDEXES" fq-name="information_schema.INNODB_INDEXES" order="35" font="Segoe UI:9:0" x="380" y="2199">
+				<path name="information_schema"/>
+			</entity>
+			<entity id="37" name="INNODB_METRICS" fq-name="information_schema.INNODB_METRICS" order="36" font="Segoe UI:9:0" x="1546" y="3823">
+				<path name="information_schema"/>
+			</entity>
+			<entity id="38" name="INNODB_SESSION_TEMP_TABLESPACES" fq-name="information_schema.INNODB_SESSION_TEMP_TABLESPACES" order="37" font="Segoe UI:9:0" x="10727" y="1477">
+				<path name="information_schema"/>
+			</entity>
+			<entity id="39" name="INNODB_TABLES" fq-name="information_schema.INNODB_TABLES" order="38" font="Segoe UI:9:0" x="1872" y="2483">
+				<path name="information_schema"/>
+			</entity>
+			<entity id="40" name="INNODB_TABLESPACES" fq-name="information_schema.INNODB_TABLESPACES" order="39" font="Segoe UI:9:0" x="9716" y="2797">
+				<path name="information_schema"/>
+			</entity>
+			<entity id="41" name="INNODB_TABLESPACES_BRIEF" fq-name="information_schema.INNODB_TABLESPACES_BRIEF" order="40" font="Segoe UI:9:0" x="10023" y="1273">
+				<path name="information_schema"/>
+			</entity>
+			<entity id="42" name="INNODB_TABLESTATS" fq-name="information_schema.INNODB_TABLESTATS" order="41" font="Segoe UI:9:0" x="9371" y="2189">
+				<path name="information_schema"/>
+			</entity>
+			<entity id="43" name="INNODB_TEMP_TABLE_INFO" fq-name="information_schema.INNODB_TEMP_TABLE_INFO" order="42" font="Segoe UI:9:0" x="10727" y="1089">
+				<path name="information_schema"/>
+			</entity>
+			<entity id="44" name="INNODB_TRX" fq-name="information_schema.INNODB_TRX" order="43" font="Segoe UI:9:0" x="1546" y="4467">
+				<path name="information_schema"/>
+			</entity>
+			<entity id="45" name="INNODB_VIRTUAL" fq-name="information_schema.INNODB_VIRTUAL" order="44" font="Segoe UI:9:0" x="860" y="1099">
+				<path name="information_schema"/>
+			</entity>
+			<entity id="46" name="KEY_COLUMN_USAGE" fq-name="information_schema.KEY_COLUMN_USAGE" order="45" font="Segoe UI:9:0" x="40" y="2777">
+				<path name="information_schema"/>
+			</entity>
+			<entity id="47" name="KEYWORDS" fq-name="information_schema.KEYWORDS" order="46" font="Segoe UI:9:0" x="3052" y="945">
+				<path name="information_schema"/>
+			</entity>
+			<entity id="48" name="OPTIMIZER_TRACE" fq-name="information_schema.OPTIMIZER_TRACE" order="47" font="Segoe UI:9:0" x="40" y="1283">
+				<path name="information_schema"/>
+			</entity>
+			<entity id="49" name="PARAMETERS" fq-name="information_schema.PARAMETERS" order="48" font="Segoe UI:9:0" x="40" y="3833">
+				<path name="information_schema"/>
+			</entity>
+			<entity id="50" name="PARTITIONS" fq-name="information_schema.PARTITIONS" order="49" font="Segoe UI:9:0" x="1872" y="4467">
+				<path name="information_schema"/>
+			</entity>
+			<entity id="51" name="PLUGINS" fq-name="information_schema.PLUGINS" order="50" font="Segoe UI:9:0" x="6562" y="2473">
+				<path name="information_schema"/>
+			</entity>
+			<entity id="52" name="PROCESSLIST" fq-name="information_schema.PROCESSLIST" order="51" font="Segoe UI:9:0" x="860" y="2199">
+				<path name="information_schema"/>
+			</entity>
+			<entity id="53" name="PROFILING" fq-name="information_schema.PROFILING" order="52" font="Segoe UI:9:0" x="3052" y="3813">
+				<path name="information_schema"/>
+			</entity>
+			<entity id="54" name="REFERENTIAL_CONSTRAINTS" fq-name="information_schema.REFERENTIAL_CONSTRAINTS" order="53" font="Segoe UI:9:0" x="6914" y="2473">
+				<path name="information_schema"/>
+			</entity>
+			<entity id="55" name="RESOURCE_GROUPS" fq-name="information_schema.RESOURCE_GROUPS" order="54" font="Segoe UI:9:0" x="10390" y="1273">
+				<path name="information_schema"/>
+			</entity>
+			<entity id="56" name="ROLE_COLUMN_GRANTS" fq-name="information_schema.ROLE_COLUMN_GRANTS" order="55" font="Segoe UI:9:0" x="2262" y="2483">
+				<path name="information_schema"/>
+			</entity>
+			<entity id="57" name="ROLE_ROUTINE_GRANTS" fq-name="information_schema.ROLE_ROUTINE_GRANTS" order="56" font="Segoe UI:9:0" x="380" y="2777">
+				<path name="information_schema"/>
+			</entity>
+			<entity id="58" name="ROLE_TABLE_GRANTS" fq-name="information_schema.ROLE_TABLE_GRANTS" order="57" font="Segoe UI:9:0" x="9716" y="2189">
+				<path name="information_schema"/>
+			</entity>
+			<entity id="59" name="ROUTINES" fq-name="information_schema.ROUTINES" order="58" font="Segoe UI:9:0" x="8645" y="4407">
+				<path name="information_schema"/>
+			</entity>
+			<entity id="60" name="SCHEMA_PRIVILEGES" fq-name="information_schema.SCHEMA_PRIVILEGES" order="59" font="Segoe UI:9:0" x="10727" y="1273">
+				<path name="information_schema"/>
+			</entity>
+			<entity id="61" name="SCHEMATA" fq-name="information_schema.SCHEMATA" order="60" font="Segoe UI:9:0" x="40" y="1701">
+				<path name="information_schema"/>
+			</entity>
+			<entity id="62" name="SCHEMATA_EXTENSIONS" fq-name="information_schema.SCHEMATA_EXTENSIONS" order="61" font="Segoe UI:9:0" x="1197" y="1099">
+				<path name="information_schema"/>
+			</entity>
+			<entity id="63" name="ST_GEOMETRY_COLUMNS" fq-name="information_schema.ST_GEOMETRY_COLUMNS" order="62" font="Segoe UI:9:0" x="1872" y="1935">
+				<path name="information_schema"/>
+			</entity>
+			<entity id="64" name="ST_SPATIAL_REFERENCE_SYSTEMS" fq-name="information_schema.ST_SPATIAL_REFERENCE_SYSTEMS" order="63" font="Segoe UI:9:0" x="380" y="1701">
+				<path name="information_schema"/>
+			</entity>
+			<entity id="65" name="ST_UNITS_OF_MEASURE" fq-name="information_schema.ST_UNITS_OF_MEASURE" order="64" font="Segoe UI:9:0" x="380" y="1283">
+				<path name="information_schema"/>
+			</entity>
+			<entity id="66" name="STATISTICS" fq-name="information_schema.STATISTICS" order="65" font="Segoe UI:9:0" x="3395" y="3813">
+				<path name="information_schema"/>
+			</entity>
+			<entity id="67" name="TABLE_CONSTRAINTS" fq-name="information_schema.TABLE_CONSTRAINTS" order="66" font="Segoe UI:9:0" x="2262" y="1935">
+				<path name="information_schema"/>
+			</entity>
+			<entity id="68" name="TABLE_CONSTRAINTS_EXTENSIONS" fq-name="information_schema.TABLE_CONSTRAINTS_EXTENSIONS" order="67" font="Segoe UI:9:0" x="860" y="1701">
+				<path name="information_schema"/>
+			</entity>
+			<entity id="69" name="TABLE_PRIVILEGES" fq-name="information_schema.TABLE_PRIVILEGES" order="68" font="Segoe UI:9:0" x="1197" y="1701">
+				<path name="information_schema"/>
+			</entity>
+			<entity id="70" name="TABLES" fq-name="information_schema.TABLES" order="69" font="Segoe UI:9:0" x="7990" y="3783">
+				<path name="information_schema"/>
+			</entity>
+			<entity id="71" name="TABLES_EXTENSIONS" fq-name="information_schema.TABLES_EXTENSIONS" order="70" font="Segoe UI:9:0" x="40" y="1487">
+				<path name="information_schema"/>
+			</entity>
+			<entity id="72" name="TABLESPACES_EXTENSIONS" fq-name="information_schema.TABLESPACES_EXTENSIONS" order="71" font="Segoe UI:9:0" x="3395" y="945">
+				<path name="information_schema"/>
+			</entity>
+			<entity id="73" name="TRIGGERS" fq-name="information_schema.TRIGGERS" order="72" font="Segoe UI:9:0" x="8645" y="3773">
+				<path name="information_schema"/>
+			</entity>
+			<entity id="74" name="USER_ATTRIBUTES" fq-name="information_schema.USER_ATTRIBUTES" order="73" font="Segoe UI:9:0" x="1546" y="1099">
+				<path name="information_schema"/>
+			</entity>
+			<entity id="75" name="USER_PRIVILEGES" fq-name="information_schema.USER_PRIVILEGES" order="74" font="Segoe UI:9:0" x="860" y="1283">
+				<path name="information_schema"/>
+			</entity>
+			<entity id="76" name="VIEW_ROUTINE_USAGE" fq-name="information_schema.VIEW_ROUTINE_USAGE" order="75" font="Segoe UI:9:0" x="1546" y="1701">
+				<path name="information_schema"/>
+			</entity>
+			<entity id="77" name="VIEW_TABLE_USAGE" fq-name="information_schema.VIEW_TABLE_USAGE" order="76" font="Segoe UI:9:0" x="1872" y="1701">
+				<path name="information_schema"/>
+			</entity>
+			<entity id="78" name="VIEWS" fq-name="information_schema.VIEWS" order="77" font="Segoe UI:9:0" x="2663" y="2483">
+				<path name="information_schema"/>
+			</entity>
+			<entity id="79" name="columns_priv" fq-name="mysql.columns_priv" order="78" color-bg="204,192,184" font="Segoe UI:9:0" x="2663" y="1935">
+				<path name="mysql"/>
+			</entity>
+			<entity id="80" name="component" fq-name="mysql.component" order="79" color-bg="204,192,184" font="Segoe UI:9:0" x="1872" y="1099">
+				<path name="mysql"/>
+			</entity>
+			<entity id="81" name="db" fq-name="mysql.db" order="80" color-bg="204,192,184" font="Segoe UI:9:0" x="8967" y="3773">
+				<path name="mysql"/>
+			</entity>
+			<entity id="82" name="default_roles" fq-name="mysql.default_roles" order="81" color-bg="204,192,184" font="Segoe UI:9:0" x="1197" y="1283">
+				<path name="mysql"/>
+			</entity>
+			<entity id="83" name="engine_cost" fq-name="mysql.engine_cost" order="82" color-bg="204,192,184" font="Segoe UI:9:0" x="3052" y="1935">
+				<path name="mysql"/>
+			</entity>
+			<entity id="84" name="func" fq-name="mysql.func" order="83" color-bg="204,192,184" font="Segoe UI:9:0" x="1546" y="1283">
+				<path name="mysql"/>
+			</entity>
+			<entity id="85" name="general_log" fq-name="mysql.general_log" order="84" color-bg="204,192,184" font="Segoe UI:9:0" x="2262" y="1701">
+				<path name="mysql"/>
+			</entity>
+			<entity id="86" name="global_grants" fq-name="mysql.global_grants" order="85" color-bg="204,192,184" font="Segoe UI:9:0" x="1872" y="1283">
+				<path name="mysql"/>
+			</entity>
+			<entity id="87" name="gtid_executed" fq-name="mysql.gtid_executed" order="86" color-bg="204,192,184" font="Segoe UI:9:0" x="2262" y="1283">
+				<path name="mysql"/>
+			</entity>
+			<entity id="88" name="help_category" fq-name="mysql.help_category" order="87" color-bg="204,192,184" font="Segoe UI:9:0" x="2663" y="1283">
+				<path name="mysql"/>
+			</entity>
+			<entity id="89" name="help_keyword" fq-name="mysql.help_keyword" order="88" color-bg="204,192,184" font="Segoe UI:9:0" x="3793" y="945">
+				<path name="mysql"/>
+			</entity>
+			<entity id="90" name="help_relation" fq-name="mysql.help_relation" order="89" color-bg="204,192,184" font="Segoe UI:9:0" x="4203" y="945">
+				<path name="mysql"/>
+			</entity>
+			<entity id="91" name="help_topic" fq-name="mysql.help_topic" order="90" color-bg="204,192,184" font="Segoe UI:9:0" x="2663" y="1701">
+				<path name="mysql"/>
+			</entity>
+			<entity id="92" name="innodb_index_stats" fq-name="mysql.innodb_index_stats" order="91" color-bg="204,192,184" font="Segoe UI:9:0" x="1197" y="2199">
+				<path name="mysql"/>
+			</entity>
+			<entity id="93" name="innodb_table_stats" fq-name="mysql.innodb_table_stats" order="92" color-bg="204,192,184" font="Segoe UI:9:0" x="3052" y="1701">
+				<path name="mysql"/>
+			</entity>
+			<entity id="94" name="ndb_binlog_index" fq-name="mysql.ndb_binlog_index" order="93" color-bg="204,192,184" font="Segoe UI:9:0" x="860" y="2777">
+				<path name="mysql"/>
+			</entity>
+			<entity id="95" name="password_history" fq-name="mysql.password_history" order="94" color-bg="204,192,184" font="Segoe UI:9:0" x="3052" y="1283">
+				<path name="mysql"/>
+			</entity>
+			<entity id="96" name="plugin" fq-name="mysql.plugin" order="95" color-bg="204,192,184" font="Segoe UI:9:0" x="4576" y="945">
+				<path name="mysql"/>
+			</entity>
+			<entity id="97" name="procs_priv" fq-name="mysql.procs_priv" order="96" color-bg="204,192,184" font="Segoe UI:9:0" x="1546" y="2199">
+				<path name="mysql"/>
+			</entity>
+			<entity id="98" name="proxies_priv" fq-name="mysql.proxies_priv" order="97" color-bg="204,192,184" font="Segoe UI:9:0" x="3395" y="1935">
+				<path name="mysql"/>
+			</entity>
+			<entity id="99" name="replication_asynchronous_connection_failover" fq-name="mysql.replication_asynchronous_connection_failover" order="98" color-bg="204,192,184" font="Segoe UI:9:0" x="3395" y="1701">
+				<path name="mysql"/>
+			</entity>
+			<entity id="100" name="replication_asynchronous_connection_failover_managed" fq-name="mysql.replication_asynchronous_connection_failover_managed" order="99" color-bg="204,192,184" font="Segoe UI:9:0" x="3395" y="1283">
+				<path name="mysql"/>
+			</entity>
+			<entity id="101" name="replication_group_configuration_version" fq-name="mysql.replication_group_configuration_version" order="100" color-bg="204,192,184" font="Segoe UI:9:0" x="4952" y="945">
+				<path name="mysql"/>
+			</entity>
+			<entity id="102" name="replication_group_member_actions" fq-name="mysql.replication_group_member_actions" order="101" color-bg="204,192,184" font="Segoe UI:9:0" x="3793" y="1701">
+				<path name="mysql"/>
+			</entity>
+			<entity id="103" name="role_edges" fq-name="mysql.role_edges" order="102" color-bg="204,192,184" font="Segoe UI:9:0" x="380" y="1487">
+				<path name="mysql"/>
+			</entity>
+			<entity id="104" name="server_cost" fq-name="mysql.server_cost" order="103" color-bg="204,192,184" font="Segoe UI:9:0" x="860" y="1487">
+				<path name="mysql"/>
+			</entity>
+			<entity id="105" name="servers" fq-name="mysql.servers" order="104" color-bg="204,192,184" font="Segoe UI:9:0" x="10023" y="2189">
+				<path name="mysql"/>
+			</entity>
+			<entity id="106" name="slave_master_info" fq-name="mysql.slave_master_info" order="105" color-bg="204,192,184" font="Segoe UI:9:0" x="9716" y="4387">
+				<path name="mysql"/>
+			</entity>
+			<entity id="107" name="slave_relay_log_info" fq-name="mysql.slave_relay_log_info" order="106" color-bg="204,192,184" font="Segoe UI:9:0" x="10023" y="2797">
+				<path name="mysql"/>
+			</entity>
+			<entity id="108" name="slave_worker_info" fq-name="mysql.slave_worker_info" order="107" color-bg="204,192,184" font="Segoe UI:9:0" x="5367" y="2788">
+				<path name="mysql"/>
+			</entity>
+			<entity id="109" name="slow_log" fq-name="mysql.slow_log" order="108" color-bg="204,192,184" font="Segoe UI:9:0" x="1197" y="2777">
+				<path name="mysql"/>
+			</entity>
+			<entity id="110" name="tables_priv" fq-name="mysql.tables_priv" order="109" color-bg="204,192,184" font="Segoe UI:9:0" x="1872" y="2199">
+				<path name="mysql"/>
+			</entity>
+			<entity id="111" name="time_zone" fq-name="mysql.time_zone" order="110" color-bg="204,192,184" font="Segoe UI:9:0" x="5367" y="945">
+				<path name="mysql"/>
+			</entity>
+			<entity id="112" name="time_zone_leap_second" fq-name="mysql.time_zone_leap_second" order="111" color-bg="204,192,184" font="Segoe UI:9:0" x="5765" y="945">
+				<path name="mysql"/>
+			</entity>
+			<entity id="113" name="time_zone_name" fq-name="mysql.time_zone_name" order="112" color-bg="204,192,184" font="Segoe UI:9:0" x="6160" y="945">
+				<path name="mysql"/>
+			</entity>
+			<entity id="114" name="time_zone_transition" fq-name="mysql.time_zone_transition" order="113" color-bg="204,192,184" font="Segoe UI:9:0" x="2262" y="1099">
+				<path name="mysql"/>
+			</entity>
+			<entity id="115" name="time_zone_transition_type" fq-name="mysql.time_zone_transition_type" order="114" color-bg="204,192,184" font="Segoe UI:9:0" x="1197" y="1487">
+				<path name="mysql"/>
+			</entity>
+			<entity id="116" name="user" fq-name="mysql.`user`" order="115" color-bg="204,192,184" font="Segoe UI:9:0" x="2262" y="5241">
+				<path name="mysql"/>
+			</entity>
+			<entity id="117" name="accounts" fq-name="performance_schema.accounts" order="116" color-bg="228,255,181" font="Segoe UI:9:0" x="4203" y="1701">
+				<path name="performance_schema"/>
+			</entity>
+			<entity id="118" name="binary_log_transaction_compression_stats" fq-name="performance_schema.binary_log_transaction_compression_stats" order="117" color-bg="228,255,181" font="Segoe UI:9:0" x="7990" y="2801">
+				<path name="performance_schema"/>
+			</entity>
+			<entity id="119" name="cond_instances" fq-name="performance_schema.cond_instances" order="118" color-bg="228,255,181" font="Segoe UI:9:0" x="6562" y="945">
+				<path name="performance_schema"/>
+			</entity>
+			<entity id="120" name="data_lock_waits" fq-name="performance_schema.data_lock_waits" order="119" color-bg="228,255,181" font="Segoe UI:9:0" x="7204" y="2473">
+				<path name="performance_schema"/>
+			</entity>
+			<entity id="121" name="data_locks" fq-name="performance_schema.data_locks" order="120" color-bg="228,255,181" font="Segoe UI:9:0" x="10390" y="2797">
+				<path name="performance_schema"/>
+			</entity>
+			<entity id="122" name="error_log" fq-name="performance_schema.error_log" order="121" color-bg="228,255,181" font="Segoe UI:9:0" x="4576" y="1701">
+				<path name="performance_schema"/>
+			</entity>
+			<entity id="123" name="events_errors_summary_by_account_by_error" fq-name="performance_schema.events_errors_summary_by_account_by_error" order="122" color-bg="228,255,181" font="Segoe UI:9:0" x="10390" y="2189">
+				<path name="performance_schema"/>
+			</entity>
+			<entity id="124" name="events_errors_summary_by_host_by_error" fq-name="performance_schema.events_errors_summary_by_host_by_error" order="123" color-bg="228,255,181" font="Segoe UI:9:0" x="2262" y="2199">
+				<path name="performance_schema"/>
+			</entity>
+			<entity id="125" name="events_errors_summary_by_thread_by_error" fq-name="performance_schema.events_errors_summary_by_thread_by_error" order="124" color-bg="228,255,181" font="Segoe UI:9:0" x="2663" y="2199">
+				<path name="performance_schema"/>
+			</entity>
+			<entity id="126" name="events_errors_summary_by_user_by_error" fq-name="performance_schema.events_errors_summary_by_user_by_error" order="125" color-bg="228,255,181" font="Segoe UI:9:0" x="3052" y="2199">
+				<path name="performance_schema"/>
+			</entity>
+			<entity id="127" name="events_errors_summary_global_by_error" fq-name="performance_schema.events_errors_summary_global_by_error" order="126" color-bg="228,255,181" font="Segoe UI:9:0" x="3793" y="1935">
+				<path name="performance_schema"/>
+			</entity>
+			<entity id="128" name="events_stages_current" fq-name="performance_schema.events_stages_current" order="127" color-bg="228,255,181" font="Segoe UI:9:0" x="1546" y="2782">
+				<path name="performance_schema"/>
+			</entity>
+			<entity id="129" name="events_stages_history" fq-name="performance_schema.events_stages_history" order="128" color-bg="228,255,181" font="Segoe UI:9:0" x="1872" y="2787">
+				<path name="performance_schema"/>
+			</entity>
+			<entity id="130" name="events_stages_history_long" fq-name="performance_schema.events_stages_history_long" order="129" color-bg="228,255,181" font="Segoe UI:9:0" x="2262" y="2787">
+				<path name="performance_schema"/>
+			</entity>
+			<entity id="131" name="events_stages_summary_by_account_by_event_name" fq-name="performance_schema.events_stages_summary_by_account_by_event_name" order="130" color-bg="228,255,181" font="Segoe UI:9:0" x="3395" y="2199">
+				<path name="performance_schema"/>
+			</entity>
+			<entity id="132" name="events_stages_summary_by_host_by_event_name" fq-name="performance_schema.events_stages_summary_by_host_by_event_name" order="131" color-bg="228,255,181" font="Segoe UI:9:0" x="4203" y="1935">
+				<path name="performance_schema"/>
+			</entity>
+			<entity id="133" name="events_stages_summary_by_thread_by_event_name" fq-name="performance_schema.events_stages_summary_by_thread_by_event_name" order="132" color-bg="228,255,181" font="Segoe UI:9:0" x="4576" y="1935">
+				<path name="performance_schema"/>
+			</entity>
+			<entity id="134" name="events_stages_summary_by_user_by_event_name" fq-name="performance_schema.events_stages_summary_by_user_by_event_name" order="133" color-bg="228,255,181" font="Segoe UI:9:0" x="4952" y="1935">
+				<path name="performance_schema"/>
+			</entity>
+			<entity id="135" name="events_stages_summary_global_by_event_name" fq-name="performance_schema.events_stages_summary_global_by_event_name" order="134" color-bg="228,255,181" font="Segoe UI:9:0" x="4952" y="1701">
+				<path name="performance_schema"/>
+			</entity>
+			<entity id="136" name="events_statements_current" fq-name="performance_schema.events_statements_current" order="135" color-bg="228,255,181" font="Segoe UI:9:0" x="1197" y="5291">
+				<path name="performance_schema"/>
+			</entity>
+			<entity id="137" name="events_statements_histogram_by_digest" fq-name="performance_schema.events_statements_histogram_by_digest" order="136" color-bg="228,255,181" font="Segoe UI:9:0" x="3793" y="2199">
+				<path name="performance_schema"/>
+			</entity>
+			<entity id="138" name="events_statements_histogram_global" fq-name="performance_schema.events_statements_histogram_global" order="137" color-bg="228,255,181" font="Segoe UI:9:0" x="5367" y="1701">
+				<path name="performance_schema"/>
+			</entity>
+			<entity id="139" name="events_statements_history" fq-name="performance_schema.events_statements_history" order="138" color-bg="228,255,181" font="Segoe UI:9:0" x="1546" y="5291">
+				<path name="performance_schema"/>
+			</entity>
+			<entity id="140" name="events_statements_history_long" fq-name="performance_schema.events_statements_history_long" order="139" color-bg="228,255,181" font="Segoe UI:9:0" x="1872" y="5291">
+				<path name="performance_schema"/>
+			</entity>
+			<entity id="141" name="events_statements_summary_by_account_by_event_name" fq-name="performance_schema.events_statements_summary_by_account_by_event_name" order="140" color-bg="228,255,181" font="Segoe UI:9:0" x="8967" y="4407">
+				<path name="performance_schema"/>
+			</entity>
+			<entity id="142" name="events_statements_summary_by_digest" fq-name="performance_schema.events_statements_summary_by_digest" order="141" color-bg="228,255,181" font="Segoe UI:9:0" x="40" y="5361">
+				<path name="performance_schema"/>
+			</entity>
+			<entity id="143" name="events_statements_summary_by_host_by_event_name" fq-name="performance_schema.events_statements_summary_by_host_by_event_name" order="142" color-bg="228,255,181" font="Segoe UI:9:0" x="5367" y="4417">
+				<path name="performance_schema"/>
+			</entity>
+			<entity id="144" name="events_statements_summary_by_program" fq-name="performance_schema.events_statements_summary_by_program" order="143" color-bg="228,255,181" font="Segoe UI:9:0" x="10023" y="4357">
+				<path name="performance_schema"/>
+			</entity>
+			<entity id="145" name="events_statements_summary_by_thread_by_event_name" fq-name="performance_schema.events_statements_summary_by_thread_by_event_name" order="144" color-bg="228,255,181" font="Segoe UI:9:0" x="5765" y="4417">
+				<path name="performance_schema"/>
+			</entity>
+			<entity id="146" name="events_statements_summary_by_user_by_event_name" fq-name="performance_schema.events_statements_summary_by_user_by_event_name" order="145" color-bg="228,255,181" font="Segoe UI:9:0" x="6160" y="4417">
+				<path name="performance_schema"/>
+			</entity>
+			<entity id="147" name="events_statements_summary_global_by_event_name" fq-name="performance_schema.events_statements_summary_global_by_event_name" order="146" color-bg="228,255,181" font="Segoe UI:9:0" x="4576" y="4427">
+				<path name="performance_schema"/>
+			</entity>
+			<entity id="148" name="events_transactions_current" fq-name="performance_schema.events_transactions_current" order="147" color-bg="228,255,181" font="Segoe UI:9:0" x="10390" y="3753">
+				<path name="performance_schema"/>
+			</entity>
+			<entity id="149" name="events_transactions_history" fq-name="performance_schema.events_transactions_history" order="148" color-bg="228,255,181" font="Segoe UI:9:0" x="10727" y="3753">
+				<path name="performance_schema"/>
+			</entity>
+			<entity id="150" name="events_transactions_history_long" fq-name="performance_schema.events_transactions_history_long" order="149" color-bg="228,255,181" font="Segoe UI:9:0" x="40" y="4477">
+				<path name="performance_schema"/>
+			</entity>
+			<entity id="151" name="events_transactions_summary_by_account_by_event_name" fq-name="performance_schema.events_transactions_summary_by_account_by_event_name" order="150" color-bg="228,255,181" font="Segoe UI:9:0" x="3793" y="3813">
+				<path name="performance_schema"/>
+			</entity>
+			<entity id="152" name="events_transactions_summary_by_host_by_event_name" fq-name="performance_schema.events_transactions_summary_by_host_by_event_name" order="151" color-bg="228,255,181" font="Segoe UI:9:0" x="1872" y="3823">
+				<path name="performance_schema"/>
+			</entity>
+			<entity id="153" name="events_transactions_summary_by_thread_by_event_name" fq-name="performance_schema.events_transactions_summary_by_thread_by_event_name" order="152" color-bg="228,255,181" font="Segoe UI:9:0" x="2262" y="3823">
+				<path name="performance_schema"/>
+			</entity>
+			<entity id="154" name="events_transactions_summary_by_user_by_event_name" fq-name="performance_schema.events_transactions_summary_by_user_by_event_name" order="153" color-bg="228,255,181" font="Segoe UI:9:0" x="2663" y="3823">
+				<path name="performance_schema"/>
+			</entity>
+			<entity id="155" name="events_transactions_summary_global_by_event_name" fq-name="performance_schema.events_transactions_summary_global_by_event_name" order="154" color-bg="228,255,181" font="Segoe UI:9:0" x="380" y="3833">
+				<path name="performance_schema"/>
+			</entity>
+			<entity id="156" name="events_waits_current" fq-name="performance_schema.events_waits_current" order="155" color-bg="228,255,181" font="Segoe UI:9:0" x="4952" y="3803">
+				<path name="performance_schema"/>
+			</entity>
+			<entity id="157" name="events_waits_history" fq-name="performance_schema.events_waits_history" order="156" color-bg="228,255,181" font="Segoe UI:9:0" x="5367" y="3803">
+				<path name="performance_schema"/>
+			</entity>
+			<entity id="158" name="events_waits_history_long" fq-name="performance_schema.events_waits_history_long" order="157" color-bg="228,255,181" font="Segoe UI:9:0" x="5765" y="3803">
+				<path name="performance_schema"/>
+			</entity>
+			<entity id="159" name="events_waits_summary_by_account_by_event_name" fq-name="performance_schema.events_waits_summary_by_account_by_event_name" order="158" color-bg="228,255,181" font="Segoe UI:9:0" x="4203" y="2199">
+				<path name="performance_schema"/>
+			</entity>
+			<entity id="160" name="events_waits_summary_by_host_by_event_name" fq-name="performance_schema.events_waits_summary_by_host_by_event_name" order="159" color-bg="228,255,181" font="Segoe UI:9:0" x="5367" y="1935">
+				<path name="performance_schema"/>
+			</entity>
+			<entity id="161" name="events_waits_summary_by_instance" fq-name="performance_schema.events_waits_summary_by_instance" order="160" color-bg="228,255,181" font="Segoe UI:9:0" x="5765" y="1935">
+				<path name="performance_schema"/>
+			</entity>
+			<entity id="162" name="events_waits_summary_by_thread_by_event_name" fq-name="performance_schema.events_waits_summary_by_thread_by_event_name" order="161" color-bg="228,255,181" font="Segoe UI:9:0" x="6160" y="1935">
+				<path name="performance_schema"/>
+			</entity>
+			<entity id="163" name="events_waits_summary_by_user_by_event_name" fq-name="performance_schema.events_waits_summary_by_user_by_event_name" order="162" color-bg="228,255,181" font="Segoe UI:9:0" x="6562" y="1935">
+				<path name="performance_schema"/>
+			</entity>
+			<entity id="164" name="events_waits_summary_global_by_event_name" fq-name="performance_schema.events_waits_summary_global_by_event_name" order="163" color-bg="228,255,181" font="Segoe UI:9:0" x="5765" y="1701">
+				<path name="performance_schema"/>
+			</entity>
+			<entity id="165" name="file_instances" fq-name="performance_schema.file_instances" order="164" color-bg="228,255,181" font="Segoe UI:9:0" x="2663" y="1099">
+				<path name="performance_schema"/>
+			</entity>
+			<entity id="166" name="file_summary_by_event_name" fq-name="performance_schema.file_summary_by_event_name" order="165" color-bg="228,255,181" font="Segoe UI:9:0" x="9371" y="3763">
+				<path name="performance_schema"/>
+			</entity>
+			<entity id="167" name="file_summary_by_instance" fq-name="performance_schema.file_summary_by_instance" order="166" color-bg="228,255,181" font="Segoe UI:9:0" x="2262" y="4467">
+				<path name="performance_schema"/>
+			</entity>
+			<entity id="168" name="global_status" fq-name="performance_schema.global_status" order="167" color-bg="228,255,181" font="Segoe UI:9:0" x="6914" y="945">
+				<path name="performance_schema"/>
+			</entity>
+			<entity id="169" name="global_variables" fq-name="performance_schema.global_variables" order="168" color-bg="228,255,181" font="Segoe UI:9:0" x="7204" y="945">
+				<path name="performance_schema"/>
+			</entity>
+			<entity id="170" name="host_cache" fq-name="performance_schema.host_cache" order="169" color-bg="228,255,181" font="Segoe UI:9:0" x="4952" y="4427">
+				<path name="performance_schema"/>
+			</entity>
+			<entity id="171" name="hosts" fq-name="performance_schema.hosts" order="170" color-bg="228,255,181" font="Segoe UI:9:0" x="1546" y="1487">
+				<path name="performance_schema"/>
+			</entity>
+			<entity id="172" name="innodb_redo_log_files" fq-name="performance_schema.innodb_redo_log_files" order="171" color-bg="228,255,181" font="Segoe UI:9:0" x="6914" y="1935">
+				<path name="performance_schema"/>
+			</entity>
+			<entity id="173" name="keyring_component_status" fq-name="performance_schema.keyring_component_status" order="172" color-bg="228,255,181" font="Segoe UI:9:0" x="7666" y="945">
+				<path name="performance_schema"/>
+			</entity>
+			<entity id="174" name="keyring_keys" fq-name="performance_schema.keyring_keys" order="173" color-bg="228,255,181" font="Segoe UI:9:0" x="3052" y="1099">
+				<path name="performance_schema"/>
+			</entity>
+			<entity id="175" name="log_status" fq-name="performance_schema.log_status" order="174" color-bg="228,255,181" font="Segoe UI:9:0" x="3793" y="1283">
+				<path name="performance_schema"/>
+			</entity>
+			<entity id="176" name="memory_summary_by_account_by_event_name" fq-name="performance_schema.memory_summary_by_account_by_event_name" order="175" color-bg="228,255,181" font="Segoe UI:9:0" x="5765" y="2791">
+				<path name="performance_schema"/>
+			</entity>
+			<entity id="177" name="memory_summary_by_host_by_event_name" fq-name="performance_schema.memory_summary_by_host_by_event_name" order="176" color-bg="228,255,181" font="Segoe UI:9:0" x="2663" y="2788">
+				<path name="performance_schema"/>
+			</entity>
+			<entity id="178" name="memory_summary_by_thread_by_event_name" fq-name="performance_schema.memory_summary_by_thread_by_event_name" order="177" color-bg="228,255,181" font="Segoe UI:9:0" x="3052" y="2789">
+				<path name="performance_schema"/>
+			</entity>
+			<entity id="179" name="memory_summary_by_user_by_event_name" fq-name="performance_schema.memory_summary_by_user_by_event_name" order="178" color-bg="228,255,181" font="Segoe UI:9:0" x="3395" y="2791">
+				<path name="performance_schema"/>
+			</entity>
+			<entity id="180" name="memory_summary_global_by_event_name" fq-name="performance_schema.memory_summary_global_by_event_name" order="179" color-bg="228,255,181" font="Segoe UI:9:0" x="7666" y="2473">
+				<path name="performance_schema"/>
+			</entity>
+			<entity id="181" name="metadata_locks" fq-name="performance_schema.metadata_locks" order="180" color-bg="228,255,181" font="Segoe UI:9:0" x="7990" y="2473">
+				<path name="performance_schema"/>
+			</entity>
+			<entity id="182" name="mutex_instances" fq-name="performance_schema.mutex_instances" order="181" color-bg="228,255,181" font="Segoe UI:9:0" x="3395" y="1099">
+				<path name="performance_schema"/>
+			</entity>
+			<entity id="183" name="objects_summary_global_by_type" fq-name="performance_schema.objects_summary_global_by_type" order="182" color-bg="228,255,181" font="Segoe UI:9:0" x="4576" y="2199">
+				<path name="performance_schema"/>
+			</entity>
+			<entity id="184" name="performance_timers" fq-name="performance_schema.performance_timers" order="183" color-bg="228,255,181" font="Segoe UI:9:0" x="4203" y="1283">
+				<path name="performance_schema"/>
+			</entity>
+			<entity id="185" name="persisted_variables" fq-name="performance_schema.persisted_variables" order="184" color-bg="228,255,181" font="Segoe UI:9:0" x="7990" y="945">
+				<path name="performance_schema"/>
+			</entity>
+			<entity id="186" name="prepared_statements_instances" fq-name="performance_schema.prepared_statements_instances" order="185" color-bg="228,255,181" font="Segoe UI:9:0" x="860" y="5351">
+				<path name="performance_schema"/>
+			</entity>
+			<entity id="187" name="processlist" fq-name="performance_schema.processlist" order="186" color-bg="228,255,181" font="Segoe UI:9:0" x="10727" y="2189">
+				<path name="performance_schema"/>
+			</entity>
+			<entity id="188" name="replication_applier_configuration" fq-name="performance_schema.replication_applier_configuration" order="187" color-bg="228,255,181" font="Segoe UI:9:0" x="7204" y="1935">
+				<path name="performance_schema"/>
+			</entity>
+			<entity id="189" name="replication_applier_filters" fq-name="performance_schema.replication_applier_filters" order="188" color-bg="228,255,181" font="Segoe UI:9:0" x="6160" y="1701">
+				<path name="performance_schema"/>
+			</entity>
+			<entity id="190" name="replication_applier_global_filters" fq-name="performance_schema.replication_applier_global_filters" order="189" color-bg="228,255,181" font="Segoe UI:9:0" x="4576" y="1283">
+				<path name="performance_schema"/>
+			</entity>
+			<entity id="191" name="replication_applier_status" fq-name="performance_schema.replication_applier_status" order="190" color-bg="228,255,181" font="Segoe UI:9:0" x="4952" y="1283">
+				<path name="performance_schema"/>
+			</entity>
+			<entity id="192" name="replication_applier_status_by_coordinator" fq-name="performance_schema.replication_applier_status_by_coordinator" order="191" color-bg="228,255,181" font="Segoe UI:9:0" x="10727" y="2797">
+				<path name="performance_schema"/>
+			</entity>
+			<entity id="193" name="replication_applier_status_by_worker" fq-name="performance_schema.replication_applier_status_by_worker" order="192" color-bg="228,255,181" font="Segoe UI:9:0" x="380" y="4477">
+				<path name="performance_schema"/>
+			</entity>
+			<entity id="194" name="replication_asynchronous_connection_failover" fq-name="performance_schema.replication_asynchronous_connection_failover" order="193" color-bg="228,255,181" font="Segoe UI:9:0" x="6562" y="1701">
+				<path name="performance_schema"/>
+			</entity>
+			<entity id="195" name="replication_asynchronous_connection_failover_managed" fq-name="performance_schema.replication_asynchronous_connection_failover_managed" order="194" color-bg="228,255,181" font="Segoe UI:9:0" x="5367" y="1283">
+				<path name="performance_schema"/>
+			</entity>
+			<entity id="196" name="replication_connection_configuration" fq-name="performance_schema.replication_connection_configuration" order="195" color-bg="228,255,181" font="Segoe UI:9:0" x="3793" y="4447">
+				<path name="performance_schema"/>
+			</entity>
+			<entity id="197" name="replication_connection_status" fq-name="performance_schema.replication_connection_status" order="196" color-bg="228,255,181" font="Segoe UI:9:0" x="7204" y="3793">
+				<path name="performance_schema"/>
+			</entity>
+			<entity id="198" name="replication_group_member_stats" fq-name="performance_schema.replication_group_member_stats" order="197" color-bg="228,255,181" font="Segoe UI:9:0" x="6160" y="2795">
+				<path name="performance_schema"/>
+			</entity>
+			<entity id="199" name="replication_group_members" fq-name="performance_schema.replication_group_members" order="198" color-bg="228,255,181" font="Segoe UI:9:0" x="4952" y="2199">
+				<path name="performance_schema"/>
+			</entity>
+			<entity id="200" name="rwlock_instances" fq-name="performance_schema.rwlock_instances" order="199" color-bg="228,255,181" font="Segoe UI:9:0" x="5765" y="1283">
+				<path name="performance_schema"/>
+			</entity>
+			<entity id="201" name="session_account_connect_attrs" fq-name="performance_schema.session_account_connect_attrs" order="200" color-bg="228,255,181" font="Segoe UI:9:0" x="6160" y="1283">
+				<path name="performance_schema"/>
+			</entity>
+			<entity id="202" name="session_connect_attrs" fq-name="performance_schema.session_connect_attrs" order="201" color-bg="228,255,181" font="Segoe UI:9:0" x="6562" y="1283">
+				<path name="performance_schema"/>
+			</entity>
+			<entity id="203" name="session_status" fq-name="performance_schema.session_status" order="202" color-bg="228,255,181" font="Segoe UI:9:0" x="8350" y="945">
+				<path name="performance_schema"/>
+			</entity>
+			<entity id="204" name="session_variables" fq-name="performance_schema.session_variables" order="203" color-bg="228,255,181" font="Segoe UI:9:0" x="8645" y="945">
+				<path name="performance_schema"/>
+			</entity>
+			<entity id="205" name="setup_actors" fq-name="performance_schema.setup_actors" order="204" color-bg="228,255,181" font="Segoe UI:9:0" x="1872" y="1487">
+				<path name="performance_schema"/>
+			</entity>
+			<entity id="206" name="setup_consumers" fq-name="performance_schema.setup_consumers" order="205" color-bg="228,255,181" font="Segoe UI:9:0" x="8967" y="945">
+				<path name="performance_schema"/>
+			</entity>
+			<entity id="207" name="setup_instruments" fq-name="performance_schema.setup_instruments" order="206" color-bg="228,255,181" font="Segoe UI:9:0" x="7666" y="1935">
+				<path name="performance_schema"/>
+			</entity>
+			<entity id="208" name="setup_meters" fq-name="performance_schema.setup_meters" order="207" color-bg="228,255,181" font="Segoe UI:9:0" x="6914" y="1283">
+				<path name="performance_schema"/>
+			</entity>
+			<entity id="209" name="setup_metrics" fq-name="performance_schema.setup_metrics" order="208" color-bg="228,255,181" font="Segoe UI:9:0" x="6914" y="1701">
+				<path name="performance_schema"/>
+			</entity>
+			<entity id="210" name="setup_objects" fq-name="performance_schema.setup_objects" order="209" color-bg="228,255,181" font="Segoe UI:9:0" x="2262" y="1487">
+				<path name="performance_schema"/>
+			</entity>
+			<entity id="211" name="setup_threads" fq-name="performance_schema.setup_threads" order="210" color-bg="228,255,181" font="Segoe UI:9:0" x="7204" y="1701">
+				<path name="performance_schema"/>
+			</entity>
+			<entity id="212" name="socket_instances" fq-name="performance_schema.socket_instances" order="211" color-bg="228,255,181" font="Segoe UI:9:0" x="7990" y="1935">
+				<path name="performance_schema"/>
+			</entity>
+			<entity id="213" name="socket_summary_by_event_name" fq-name="performance_schema.socket_summary_by_event_name" order="212" color-bg="228,255,181" font="Segoe UI:9:0" x="9716" y="3763">
+				<path name="performance_schema"/>
+			</entity>
+			<entity id="214" name="socket_summary_by_instance" fq-name="performance_schema.socket_summary_by_instance" order="213" color-bg="228,255,181" font="Segoe UI:9:0" x="860" y="4477">
+				<path name="performance_schema"/>
+			</entity>
+			<entity id="215" name="status_by_account" fq-name="performance_schema.status_by_account" order="214" color-bg="228,255,181" font="Segoe UI:9:0" x="7204" y="1283">
+				<path name="performance_schema"/>
+			</entity>
+			<entity id="216" name="status_by_host" fq-name="performance_schema.status_by_host" order="215" color-bg="228,255,181" font="Segoe UI:9:0" x="3793" y="1099">
+				<path name="performance_schema"/>
+			</entity>
+			<entity id="217" name="status_by_thread" fq-name="performance_schema.status_by_thread" order="216" color-bg="228,255,181" font="Segoe UI:9:0" x="4203" y="1099">
+				<path name="performance_schema"/>
+			</entity>
+			<entity id="218" name="status_by_user" fq-name="performance_schema.status_by_user" order="217" color-bg="228,255,181" font="Segoe UI:9:0" x="4576" y="1099">
+				<path name="performance_schema"/>
+			</entity>
+			<entity id="219" name="table_handles" fq-name="performance_schema.table_handles" order="218" color-bg="228,255,181" font="Segoe UI:9:0" x="5367" y="2199">
+				<path name="performance_schema"/>
+			</entity>
+			<entity id="220" name="table_io_waits_summary_by_index_usage" fq-name="performance_schema.table_io_waits_summary_by_index_usage" order="219" color-bg="228,255,181" font="Segoe UI:9:0" x="380" y="5361">
+				<path name="performance_schema"/>
+			</entity>
+			<entity id="221" name="table_io_waits_summary_by_table" fq-name="performance_schema.table_io_waits_summary_by_table" order="220" color-bg="228,255,181" font="Segoe UI:9:0" x="10727" y="4337">
+				<path name="performance_schema"/>
+			</entity>
+			<entity id="222" name="table_lock_waits_summary_by_table" fq-name="performance_schema.table_lock_waits_summary_by_table" order="221" color-bg="228,255,181" font="Segoe UI:9:0" x="2663" y="5071">
+				<path name="performance_schema"/>
+			</entity>
+			<entity id="223" name="threads" fq-name="performance_schema.threads" order="222" color-bg="228,255,181" font="Segoe UI:9:0" x="1197" y="4477">
+				<path name="performance_schema"/>
+			</entity>
+			<entity id="224" name="tls_channel_status" fq-name="performance_schema.tls_channel_status" order="223" color-bg="228,255,181" font="Segoe UI:9:0" x="4952" y="1099">
+				<path name="performance_schema"/>
+			</entity>
+			<entity id="225" name="user_defined_functions" fq-name="performance_schema.user_defined_functions" order="224" color-bg="228,255,181" font="Segoe UI:9:0" x="2663" y="1487">
+				<path name="performance_schema"/>
+			</entity>
+			<entity id="226" name="user_variables_by_thread" fq-name="performance_schema.user_variables_by_thread" order="225" color-bg="228,255,181" font="Segoe UI:9:0" x="5367" y="1099">
+				<path name="performance_schema"/>
+			</entity>
+			<entity id="227" name="users" fq-name="performance_schema.users" order="226" color-bg="228,255,181" font="Segoe UI:9:0" x="3052" y="1487">
+				<path name="performance_schema"/>
+			</entity>
+			<entity id="228" name="variables_by_thread" fq-name="performance_schema.variables_by_thread" order="227" color-bg="228,255,181" font="Segoe UI:9:0" x="5765" y="1099">
+				<path name="performance_schema"/>
+			</entity>
+			<entity id="229" name="variables_info" fq-name="performance_schema.variables_info" order="228" color-bg="228,255,181" font="Segoe UI:9:0" x="5765" y="2199">
+				<path name="performance_schema"/>
+			</entity>
+			<entity id="230" name="actor" fq-name="sakila.actor" order="229" color-bg="255,255,255" font="Segoe UI:9:0" x="1197" y="3121">
+				<path name="sakila"/>
+			</entity>
+			<entity id="231" name="actor_info" fq-name="sakila.actor_info" order="230" color-bg="255,255,255" font="Segoe UI:9:0" x="7666" y="1283">
+				<path name="sakila"/>
+			</entity>
+			<entity id="232" name="address" fq-name="sakila.address" order="231" color-bg="255,255,255" font="Segoe UI:9:0" x="1872" y="81">
+				<path name="sakila"/>
+			</entity>
+			<entity id="233" name="category" fq-name="sakila.category" order="232" color-bg="255,255,255" font="Segoe UI:9:0" x="1197" y="3669">
+				<path name="sakila"/>
+			</entity>
+			<entity id="234" name="city" fq-name="sakila.city" order="233" color-bg="255,255,255" font="Segoe UI:9:0" x="2262" y="131">
+				<path name="sakila"/>
+			</entity>
+			<entity id="235" name="country" fq-name="sakila.country" order="234" color-bg="255,255,255" font="Segoe UI:9:0" x="2663" y="141">
+				<path name="sakila"/>
+			</entity>
+			<entity id="236" name="customer" fq-name="sakila.customer" order="235" color-bg="255,255,255" font="Segoe UI:9:0" x="860" y="82">
+				<path name="sakila"/>
+			</entity>
+			<entity id="237" name="customer_list" fq-name="sakila.customer_list" order="236" color-bg="255,255,255" font="Segoe UI:9:0" x="40" y="2493">
+				<path name="sakila"/>
+			</entity>
+			<entity id="238" name="film" fq-name="sakila.film" order="237" color-bg="255,255,255" font="Segoe UI:9:0" x="1197" y="3305">
+				<path name="sakila"/>
+			</entity>
+			<entity id="239" name="film_actor" fq-name="sakila.film_actor" order="238" color-bg="255,255,255" font="Segoe UI:9:0" x="860" y="3268">
+				<path name="sakila"/>
+			</entity>
+			<entity id="240" name="film_category" fq-name="sakila.film_category" order="239" color-bg="255,255,255" font="Segoe UI:9:0" x="860" y="3537">
+				<path name="sakila"/>
+			</entity>
+			<entity id="241" name="film_list" fq-name="sakila.film_list" order="240" color-bg="255,255,255" font="Segoe UI:9:0" x="6160" y="2199">
+				<path name="sakila"/>
+			</entity>
+			<entity id="242" name="film_text" fq-name="sakila.film_text" order="241" color-bg="255,255,255" font="Segoe UI:9:0" x="6160" y="1099">
+				<path name="sakila"/>
+			</entity>
+			<entity id="243" name="inventory" fq-name="sakila.inventory" order="242" color-bg="255,255,255" font="Segoe UI:9:0" x="860" y="366">
+				<path name="sakila"/>
+			</entity>
+			<entity id="244" name="language" fq-name="sakila.`language`" order="243" color-bg="255,255,255" font="Segoe UI:9:0" x="1546" y="3405">
+				<path name="sakila"/>
+			</entity>
+			<entity id="245" name="nicer_but_slower_film_list" fq-name="sakila.nicer_but_slower_film_list" order="244" color-bg="255,255,255" font="Segoe UI:9:0" x="6562" y="2199">
+				<path name="sakila"/>
+			</entity>
+			<entity id="246" name="payment" fq-name="sakila.payment" order="245" color-bg="255,255,255" font="Segoe UI:9:0" x="40" y="229">
+				<path name="sakila"/>
+			</entity>
+			<entity id="247" name="rental" fq-name="sakila.rental" order="246" color-bg="255,255,255" font="Segoe UI:9:0" x="416" y="85">
+				<path name="sakila"/>
+			</entity>
+			<entity id="248" name="sales_by_film_category" fq-name="sakila.sales_by_film_category" order="247" color-bg="255,255,255" font="Segoe UI:9:0" x="9371" y="945">
+				<path name="sakila"/>
+			</entity>
+			<entity id="249" name="sales_by_store" fq-name="sakila.sales_by_store" order="248" color-bg="255,255,255" font="Segoe UI:9:0" x="6562" y="1099">
+				<path name="sakila"/>
+			</entity>
+			<entity id="250" name="staff" fq-name="sakila.staff" order="249" color-bg="255,255,255" font="Segoe UI:9:0" x="1546" y="61">
+				<path name="sakila"/>
+			</entity>
+			<entity id="251" name="staff_list" fq-name="sakila.staff_list" order="250" color-bg="255,255,255" font="Segoe UI:9:0" x="6914" y="2199">
+				<path name="sakila"/>
+			</entity>
+			<entity id="252" name="store" fq-name="sakila.store" order="251" color-bg="255,255,255" font="Segoe UI:9:0" x="1197" y="226">
+				<path name="sakila"/>
+			</entity>
+			<entity id="253" name="host_summary" fq-name="sys.host_summary" order="252" color-bg="219,229,241" font="Segoe UI:9:0" x="3793" y="2792">
+				<path name="sys"/>
+			</entity>
+			<entity id="254" name="host_summary_by_file_io" fq-name="sys.host_summary_by_file_io" order="253" color-bg="219,229,241" font="Segoe UI:9:0" x="6914" y="1099">
+				<path name="sys"/>
+			</entity>
+			<entity id="255" name="host_summary_by_file_io_type" fq-name="sys.host_summary_by_file_io_type" order="254" color-bg="219,229,241" font="Segoe UI:9:0" x="3395" y="1487">
+				<path name="sys"/>
+			</entity>
+			<entity id="256" name="host_summary_by_stages" fq-name="sys.host_summary_by_stages" order="255" color-bg="219,229,241" font="Segoe UI:9:0" x="3793" y="1487">
+				<path name="sys"/>
+			</entity>
+			<entity id="257" name="host_summary_by_statement_latency" fq-name="sys.host_summary_by_statement_latency" order="256" color-bg="219,229,241" font="Segoe UI:9:0" x="3052" y="2483">
+				<path name="sys"/>
+			</entity>
+			<entity id="258" name="host_summary_by_statement_type" fq-name="sys.host_summary_by_statement_type" order="257" color-bg="219,229,241" font="Segoe UI:9:0" x="8350" y="2473">
+				<path name="sys"/>
+			</entity>
+			<entity id="259" name="innodb_buffer_stats_by_schema" fq-name="sys.innodb_buffer_stats_by_schema" order="258" color-bg="219,229,241" font="Segoe UI:9:0" x="8350" y="1935">
+				<path name="sys"/>
+			</entity>
+			<entity id="260" name="innodb_buffer_stats_by_table" fq-name="sys.innodb_buffer_stats_by_table" order="259" color-bg="219,229,241" font="Segoe UI:9:0" x="7204" y="2199">
+				<path name="sys"/>
+			</entity>
+			<entity id="261" name="innodb_lock_waits" fq-name="sys.innodb_lock_waits" order="260" color-bg="219,229,241" font="Segoe UI:9:0" x="6562" y="4417">
+				<path name="sys"/>
+			</entity>
+			<entity id="262" name="io_by_thread_by_latency" fq-name="sys.io_by_thread_by_latency" order="261" color-bg="219,229,241" font="Segoe UI:9:0" x="7666" y="2199">
+				<path name="sys"/>
+			</entity>
+			<entity id="263" name="io_global_by_file_by_bytes" fq-name="sys.io_global_by_file_by_bytes" order="262" color-bg="219,229,241" font="Segoe UI:9:0" x="380" y="2493">
+				<path name="sys"/>
+			</entity>
+			<entity id="264" name="io_global_by_file_by_latency" fq-name="sys.io_global_by_file_by_latency" order="263" color-bg="219,229,241" font="Segoe UI:9:0" x="860" y="2493">
+				<path name="sys"/>
+			</entity>
+			<entity id="265" name="io_global_by_wait_by_bytes" fq-name="sys.io_global_by_wait_by_bytes" order="264" color-bg="219,229,241" font="Segoe UI:9:0" x="6562" y="2800">
+				<path name="sys"/>
+			</entity>
+			<entity id="266" name="io_global_by_wait_by_latency" fq-name="sys.io_global_by_wait_by_latency" order="265" color-bg="219,229,241" font="Segoe UI:9:0" x="8350" y="2802">
+				<path name="sys"/>
+			</entity>
+			<entity id="267" name="latest_file_io" fq-name="sys.latest_file_io" order="266" color-bg="219,229,241" font="Segoe UI:9:0" x="4203" y="1487">
+				<path name="sys"/>
+			</entity>
+			<entity id="268" name="memory_by_host_by_current_bytes" fq-name="sys.memory_by_host_by_current_bytes" order="267" color-bg="219,229,241" font="Segoe UI:9:0" x="7666" y="1701">
+				<path name="sys"/>
+			</entity>
+			<entity id="269" name="memory_by_thread_by_current_bytes" fq-name="sys.memory_by_thread_by_current_bytes" order="268" color-bg="219,229,241" font="Segoe UI:9:0" x="8645" y="1935">
+				<path name="sys"/>
+			</entity>
+			<entity id="270" name="memory_by_user_by_current_bytes" fq-name="sys.memory_by_user_by_current_bytes" order="269" color-bg="219,229,241" font="Segoe UI:9:0" x="7990" y="1701">
+				<path name="sys"/>
+			</entity>
+			<entity id="271" name="memory_global_by_current_bytes" fq-name="sys.memory_global_by_current_bytes" order="270" color-bg="219,229,241" font="Segoe UI:9:0" x="8967" y="1935">
+				<path name="sys"/>
+			</entity>
+			<entity id="272" name="memory_global_total" fq-name="sys.memory_global_total" order="271" color-bg="219,229,241" font="Segoe UI:9:0" x="1197" y="965">
+				<path name="sys"/>
+			</entity>
+			<entity id="273" name="metrics" fq-name="sys.metrics" order="272" color-bg="219,229,241" font="Segoe UI:9:0" x="7990" y="1283">
+				<path name="sys"/>
+			</entity>
+			<entity id="274" name="processlist" fq-name="sys.processlist" order="273" color-bg="219,229,241" font="Segoe UI:9:0" x="6914" y="4417">
+				<path name="sys"/>
+			</entity>
+			<entity id="275" name="ps_check_lost_instrumentation" fq-name="sys.ps_check_lost_instrumentation" order="274" color-bg="219,229,241" font="Segoe UI:9:0" x="9716" y="945">
+				<path name="sys"/>
+			</entity>
+			<entity id="276" name="schema_auto_increment_columns" fq-name="sys.schema_auto_increment_columns" order="275" color-bg="219,229,241" font="Segoe UI:9:0" x="3395" y="2483">
+				<path name="sys"/>
+			</entity>
+			<entity id="277" name="schema_index_statistics" fq-name="sys.schema_index_statistics" order="276" color-bg="219,229,241" font="Segoe UI:9:0" x="8645" y="2473">
+				<path name="sys"/>
+			</entity>
+			<entity id="278" name="schema_object_overview" fq-name="sys.schema_object_overview" order="277" color-bg="219,229,241" font="Segoe UI:9:0" x="7204" y="1099">
+				<path name="sys"/>
+			</entity>
+			<entity id="279" name="schema_redundant_indexes" fq-name="sys.schema_redundant_indexes" order="278" color-bg="219,229,241" font="Segoe UI:9:0" x="3793" y="2483">
+				<path name="sys"/>
+			</entity>
+			<entity id="280" name="schema_table_lock_waits" fq-name="sys.schema_table_lock_waits" order="279" color-bg="219,229,241" font="Segoe UI:9:0" x="4203" y="3813">
+				<path name="sys"/>
+			</entity>
+			<entity id="281" name="schema_table_statistics" fq-name="sys.schema_table_statistics" order="280" color-bg="219,229,241" font="Segoe UI:9:0" x="6160" y="3803">
+				<path name="sys"/>
+			</entity>
+			<entity id="282" name="schema_table_statistics_with_buffer" fq-name="sys.schema_table_statistics_with_buffer" order="281" color-bg="219,229,241" font="Segoe UI:9:0" x="2663" y="4467">
+				<path name="sys"/>
+			</entity>
+			<entity id="283" name="schema_tables_with_full_table_scans" fq-name="sys.schema_tables_with_full_table_scans" order="282" color-bg="219,229,241" font="Segoe UI:9:0" x="8350" y="1283">
+				<path name="sys"/>
+			</entity>
+			<entity id="284" name="schema_unused_indexes" fq-name="sys.schema_unused_indexes" order="283" color-bg="219,229,241" font="Segoe UI:9:0" x="7666" y="1099">
+				<path name="sys"/>
+			</entity>
+			<entity id="285" name="session" fq-name="sys.`session`" order="284" color-bg="219,229,241" font="Segoe UI:9:0" x="7204" y="4417">
+				<path name="sys"/>
+			</entity>
+			<entity id="286" name="session_ssl_status" fq-name="sys.session_ssl_status" order="285" color-bg="219,229,241" font="Segoe UI:9:0" x="8645" y="1283">
+				<path name="sys"/>
+			</entity>
+			<entity id="287" name="statement_analysis" fq-name="sys.statement_analysis" order="286" color-bg="219,229,241" font="Segoe UI:9:0" x="3395" y="4457">
+				<path name="sys"/>
+			</entity>
+			<entity id="288" name="statements_with_errors_or_warnings" fq-name="sys.statements_with_errors_or_warnings" order="287" color-bg="219,229,241" font="Segoe UI:9:0" x="4203" y="2483">
+				<path name="sys"/>
+			</entity>
+			<entity id="289" name="statements_with_full_table_scans" fq-name="sys.statements_with_full_table_scans" order="288" color-bg="219,229,241" font="Segoe UI:9:0" x="8645" y="2802">
+				<path name="sys"/>
+			</entity>
+			<entity id="290" name="statements_with_runtimes_in_95th_percentile" fq-name="sys.statements_with_runtimes_in_95th_percentile" order="289" color-bg="219,229,241" font="Segoe UI:9:0" x="860" y="3833">
+				<path name="sys"/>
+			</entity>
+			<entity id="291" name="statements_with_sorting" fq-name="sys.statements_with_sorting" order="290" color-bg="219,229,241" font="Segoe UI:9:0" x="6914" y="2804">
+				<path name="sys"/>
+			</entity>
+			<entity id="292" name="statements_with_temp_tables" fq-name="sys.statements_with_temp_tables" order="291" color-bg="219,229,241" font="Segoe UI:9:0" x="8967" y="2473">
+				<path name="sys"/>
+			</entity>
+			<entity id="293" name="sys_config" fq-name="sys.sys_config" order="292" color-bg="219,229,241" font="Segoe UI:9:0" x="8967" y="1283">
+				<path name="sys"/>
+			</entity>
+			<entity id="294" name="user_summary" fq-name="sys.user_summary" order="293" color-bg="219,229,241" font="Segoe UI:9:0" x="4203" y="2792">
+				<path name="sys"/>
+			</entity>
+			<entity id="295" name="user_summary_by_file_io" fq-name="sys.user_summary_by_file_io" order="294" color-bg="219,229,241" font="Segoe UI:9:0" x="7990" y="1099">
+				<path name="sys"/>
+			</entity>
+			<entity id="296" name="user_summary_by_file_io_type" fq-name="sys.user_summary_by_file_io_type" order="295" color-bg="219,229,241" font="Segoe UI:9:0" x="4576" y="1487">
+				<path name="sys"/>
+			</entity>
+			<entity id="297" name="user_summary_by_stages" fq-name="sys.user_summary_by_stages" order="296" color-bg="219,229,241" font="Segoe UI:9:0" x="4952" y="1487">
+				<path name="sys"/>
+			</entity>
+			<entity id="298" name="user_summary_by_statement_latency" fq-name="sys.user_summary_by_statement_latency" order="297" color-bg="219,229,241" font="Segoe UI:9:0" x="4576" y="2483">
+				<path name="sys"/>
+			</entity>
+			<entity id="299" name="user_summary_by_statement_type" fq-name="sys.user_summary_by_statement_type" order="298" color-bg="219,229,241" font="Segoe UI:9:0" x="9371" y="2473">
+				<path name="sys"/>
+			</entity>
+			<entity id="300" name="version" fq-name="sys.version" order="299" color-bg="219,229,241" font="Segoe UI:9:0" x="10023" y="945">
+				<path name="sys"/>
+			</entity>
+			<entity id="301" name="wait_classes_global_by_avg_latency" fq-name="sys.wait_classes_global_by_avg_latency" order="300" color-bg="219,229,241" font="Segoe UI:9:0" x="8350" y="1701">
+				<path name="sys"/>
+			</entity>
+			<entity id="302" name="wait_classes_global_by_latency" fq-name="sys.wait_classes_global_by_latency" order="301" color-bg="219,229,241" font="Segoe UI:9:0" x="8645" y="1701">
+				<path name="sys"/>
+			</entity>
+			<entity id="303" name="waits_by_host_by_latency" fq-name="sys.waits_by_host_by_latency" order="302" color-bg="219,229,241" font="Segoe UI:9:0" x="8967" y="1701">
+				<path name="sys"/>
+			</entity>
+			<entity id="304" name="waits_by_user_by_latency" fq-name="sys.waits_by_user_by_latency" order="303" color-bg="219,229,241" font="Segoe UI:9:0" x="9371" y="1701">
+				<path name="sys"/>
+			</entity>
+			<entity id="305" name="waits_global_by_latency" fq-name="sys.waits_global_by_latency" order="304" color-bg="219,229,241" font="Segoe UI:9:0" x="5367" y="1487">
+				<path name="sys"/>
+			</entity>
+			<entity id="306" name="x$host_summary" fq-name="sys.`x$host_summary`" order="305" color-bg="219,229,241" font="Segoe UI:9:0" x="4576" y="2793">
+				<path name="sys"/>
+			</entity>
+			<entity id="307" name="x$host_summary_by_file_io" fq-name="sys.`x$host_summary_by_file_io`" order="306" color-bg="219,229,241" font="Segoe UI:9:0" x="8350" y="1099">
+				<path name="sys"/>
+			</entity>
+			<entity id="308" name="x$host_summary_by_file_io_type" fq-name="sys.`x$host_summary_by_file_io_type`" order="307" color-bg="219,229,241" font="Segoe UI:9:0" x="5765" y="1487">
+				<path name="sys"/>
+			</entity>
+			<entity id="309" name="x$host_summary_by_stages" fq-name="sys.`x$host_summary_by_stages`" order="308" color-bg="219,229,241" font="Segoe UI:9:0" x="6160" y="1487">
+				<path name="sys"/>
+			</entity>
+			<entity id="310" name="x$host_summary_by_statement_latency" fq-name="sys.`x$host_summary_by_statement_latency`" order="309" color-bg="219,229,241" font="Segoe UI:9:0" x="4952" y="2483">
+				<path name="sys"/>
+			</entity>
+			<entity id="311" name="x$host_summary_by_statement_type" fq-name="sys.`x$host_summary_by_statement_type`" order="310" color-bg="219,229,241" font="Segoe UI:9:0" x="9716" y="2473">
+				<path name="sys"/>
+			</entity>
+			<entity id="312" name="x$innodb_buffer_stats_by_schema" fq-name="sys.`x$innodb_buffer_stats_by_schema`" order="311" color-bg="219,229,241" font="Segoe UI:9:0" x="9371" y="1935">
+				<path name="sys"/>
+			</entity>
+			<entity id="313" name="x$innodb_buffer_stats_by_table" fq-name="sys.`x$innodb_buffer_stats_by_table`" order="312" color-bg="219,229,241" font="Segoe UI:9:0" x="7990" y="2199">
+				<path name="sys"/>
+			</entity>
+			<entity id="314" name="x$innodb_lock_waits" fq-name="sys.`x$innodb_lock_waits`" order="313" color-bg="219,229,241" font="Segoe UI:9:0" x="7666" y="4417">
+				<path name="sys"/>
+			</entity>
+			<entity id="315" name="x$io_by_thread_by_latency" fq-name="sys.`x$io_by_thread_by_latency`" order="314" color-bg="219,229,241" font="Segoe UI:9:0" x="8350" y="2199">
+				<path name="sys"/>
+			</entity>
+			<entity id="316" name="x$io_global_by_file_by_bytes" fq-name="sys.`x$io_global_by_file_by_bytes`" order="315" color-bg="219,229,241" font="Segoe UI:9:0" x="1197" y="2493">
+				<path name="sys"/>
+			</entity>
+			<entity id="317" name="x$io_global_by_file_by_latency" fq-name="sys.`x$io_global_by_file_by_latency`" order="316" color-bg="219,229,241" font="Segoe UI:9:0" x="1546" y="2493">
+				<path name="sys"/>
+			</entity>
+			<entity id="318" name="x$io_global_by_wait_by_bytes" fq-name="sys.`x$io_global_by_wait_by_bytes`" order="317" color-bg="219,229,241" font="Segoe UI:9:0" x="7204" y="2807">
+				<path name="sys"/>
+			</entity>
+			<entity id="319" name="x$io_global_by_wait_by_latency" fq-name="sys.`x$io_global_by_wait_by_latency`" order="318" color-bg="219,229,241" font="Segoe UI:9:0" x="8967" y="2803">
+				<path name="sys"/>
+			</entity>
+			<entity id="320" name="x$latest_file_io" fq-name="sys.`x$latest_file_io`" order="319" color-bg="219,229,241" font="Segoe UI:9:0" x="6562" y="1487">
+				<path name="sys"/>
+			</entity>
+			<entity id="321" name="x$memory_by_host_by_current_bytes" fq-name="sys.`x$memory_by_host_by_current_bytes`" order="320" color-bg="219,229,241" font="Segoe UI:9:0" x="9716" y="1701">
+				<path name="sys"/>
+			</entity>
+			<entity id="322" name="x$memory_by_thread_by_current_bytes" fq-name="sys.`x$memory_by_thread_by_current_bytes`" order="321" color-bg="219,229,241" font="Segoe UI:9:0" x="9716" y="1935">
+				<path name="sys"/>
+			</entity>
+			<entity id="323" name="x$memory_by_user_by_current_bytes" fq-name="sys.`x$memory_by_user_by_current_bytes`" order="322" color-bg="219,229,241" font="Segoe UI:9:0" x="10023" y="1701">
+				<path name="sys"/>
+			</entity>
+			<entity id="324" name="x$memory_global_by_current_bytes" fq-name="sys.`x$memory_global_by_current_bytes`" order="323" color-bg="219,229,241" font="Segoe UI:9:0" x="10023" y="1935">
+				<path name="sys"/>
+			</entity>
+			<entity id="325" name="x$memory_global_total" fq-name="sys.`x$memory_global_total`" order="324" color-bg="219,229,241" font="Segoe UI:9:0" x="1546" y="961">
+				<path name="sys"/>
+			</entity>
+			<entity id="326" name="x$processlist" fq-name="sys.`x$processlist`" order="325" color-bg="219,229,241" font="Segoe UI:9:0" x="7990" y="4417">
+				<path name="sys"/>
+			</entity>
+			<entity id="327" name="x$ps_digest_95th_percentile_by_avg_us" fq-name="sys.`x$ps_digest_95th_percentile_by_avg_us`" order="326" color-bg="219,229,241" font="Segoe UI:9:0" x="10390" y="945">
+				<path name="sys"/>
+			</entity>
+			<entity id="328" name="x$ps_digest_avg_latency_distribution" fq-name="sys.`x$ps_digest_avg_latency_distribution`" order="327" color-bg="219,229,241" font="Segoe UI:9:0" x="10727" y="945">
+				<path name="sys"/>
+			</entity>
+			<entity id="329" name="x$ps_schema_table_statistics_io" fq-name="sys.`x$ps_schema_table_statistics_io`" order="328" color-bg="219,229,241" font="Segoe UI:9:0" x="5367" y="2483">
+				<path name="sys"/>
+			</entity>
+			<entity id="330" name="x$schema_flattened_keys" fq-name="sys.`x$schema_flattened_keys`" order="329" color-bg="219,229,241" font="Segoe UI:9:0" x="10390" y="1701">
+				<path name="sys"/>
+			</entity>
+			<entity id="331" name="x$schema_index_statistics" fq-name="sys.`x$schema_index_statistics`" order="330" color-bg="219,229,241" font="Segoe UI:9:0" x="10023" y="2473">
+				<path name="sys"/>
+			</entity>
+			<entity id="332" name="x$schema_table_lock_waits" fq-name="sys.`x$schema_table_lock_waits`" order="331" color-bg="219,229,241" font="Segoe UI:9:0" x="4576" y="3813">
+				<path name="sys"/>
+			</entity>
+			<entity id="333" name="x$schema_table_statistics" fq-name="sys.`x$schema_table_statistics`" order="332" color-bg="219,229,241" font="Segoe UI:9:0" x="6562" y="3803">
+				<path name="sys"/>
+			</entity>
+			<entity id="334" name="x$schema_table_statistics_with_buffer" fq-name="sys.`x$schema_table_statistics_with_buffer`" order="333" color-bg="219,229,241" font="Segoe UI:9:0" x="3052" y="4467">
+				<path name="sys"/>
+			</entity>
+			<entity id="335" name="x$schema_tables_with_full_table_scans" fq-name="sys.`x$schema_tables_with_full_table_scans`" order="334" color-bg="219,229,241" font="Segoe UI:9:0" x="9371" y="1283">
+				<path name="sys"/>
+			</entity>
+			<entity id="336" name="x$session" fq-name="sys.`x$session`" order="335" color-bg="219,229,241" font="Segoe UI:9:0" x="8350" y="4417">
+				<path name="sys"/>
+			</entity>
+			<entity id="337" name="x$statement_analysis" fq-name="sys.`x$statement_analysis`" order="336" color-bg="219,229,241" font="Segoe UI:9:0" x="4203" y="4447">
+				<path name="sys"/>
+			</entity>
+			<entity id="338" name="x$statements_with_errors_or_warnings" fq-name="sys.`x$statements_with_errors_or_warnings`" order="337" color-bg="219,229,241" font="Segoe UI:9:0" x="5765" y="2483">
+				<path name="sys"/>
+			</entity>
+			<entity id="339" name="x$statements_with_full_table_scans" fq-name="sys.`x$statements_with_full_table_scans`" order="338" color-bg="219,229,241" font="Segoe UI:9:0" x="9371" y="2805">
+				<path name="sys"/>
+			</entity>
+			<entity id="340" name="x$statements_with_runtimes_in_95th_percentile" fq-name="sys.`x$statements_with_runtimes_in_95th_percentile`" order="339" color-bg="219,229,241" font="Segoe UI:9:0" x="1197" y="3833">
+				<path name="sys"/>
+			</entity>
+			<entity id="341" name="x$statements_with_sorting" fq-name="sys.`x$statements_with_sorting`" order="340" color-bg="219,229,241" font="Segoe UI:9:0" x="7666" y="2809">
+				<path name="sys"/>
+			</entity>
+			<entity id="342" name="x$statements_with_temp_tables" fq-name="sys.`x$statements_with_temp_tables`" order="341" color-bg="219,229,241" font="Segoe UI:9:0" x="10390" y="2473">
+				<path name="sys"/>
+			</entity>
+			<entity id="343" name="x$user_summary" fq-name="sys.`x$user_summary`" order="342" color-bg="219,229,241" font="Segoe UI:9:0" x="4952" y="2795">
+				<path name="sys"/>
+			</entity>
+			<entity id="344" name="x$user_summary_by_file_io" fq-name="sys.`x$user_summary_by_file_io`" order="343" color-bg="219,229,241" font="Segoe UI:9:0" x="8645" y="1099">
+				<path name="sys"/>
+			</entity>
+			<entity id="345" name="x$user_summary_by_file_io_type" fq-name="sys.`x$user_summary_by_file_io_type`" order="344" color-bg="219,229,241" font="Segoe UI:9:0" x="6914" y="1487">
+				<path name="sys"/>
+			</entity>
+			<entity id="346" name="x$user_summary_by_stages" fq-name="sys.`x$user_summary_by_stages`" order="345" color-bg="219,229,241" font="Segoe UI:9:0" x="7204" y="1487">
+				<path name="sys"/>
+			</entity>
+			<entity id="347" name="x$user_summary_by_statement_latency" fq-name="sys.`x$user_summary_by_statement_latency`" order="346" color-bg="219,229,241" font="Segoe UI:9:0" x="6160" y="2483">
+				<path name="sys"/>
+			</entity>
+			<entity id="348" name="x$user_summary_by_statement_type" fq-name="sys.`x$user_summary_by_statement_type`" order="347" color-bg="219,229,241" font="Segoe UI:9:0" x="10727" y="2473">
+				<path name="sys"/>
+			</entity>
+			<entity id="349" name="x$wait_classes_global_by_avg_latency" fq-name="sys.`x$wait_classes_global_by_avg_latency`" order="348" color-bg="219,229,241" font="Segoe UI:9:0" x="10727" y="1701">
+				<path name="sys"/>
+			</entity>
+			<entity id="350" name="x$wait_classes_global_by_latency" fq-name="sys.`x$wait_classes_global_by_latency`" order="349" color-bg="219,229,241" font="Segoe UI:9:0" x="40" y="1945">
+				<path name="sys"/>
+			</entity>
+			<entity id="351" name="x$waits_by_host_by_latency" fq-name="sys.`x$waits_by_host_by_latency`" order="350" color-bg="219,229,241" font="Segoe UI:9:0" x="380" y="1945">
+				<path name="sys"/>
+			</entity>
+			<entity id="352" name="x$waits_by_user_by_latency" fq-name="sys.`x$waits_by_user_by_latency`" order="351" color-bg="219,229,241" font="Segoe UI:9:0" x="860" y="1945">
+				<path name="sys"/>
+			</entity>
+			<entity id="353" name="x$waits_global_by_latency" fq-name="sys.`x$waits_global_by_latency`" order="352" color-bg="219,229,241" font="Segoe UI:9:0" x="7666" y="1487">
+				<path name="sys"/>
+			</entity>
+			<entity id="354" name="city" fq-name="world.city" order="353" color-bg="248,214,205" font="Segoe UI:9:0" x="40" y="574">
+				<path name="world"/>
+			</entity>
+			<entity id="355" name="country" fq-name="world.country" order="354" color-bg="248,214,205" font="Segoe UI:9:0" x="380" y="571">
+				<path name="world"/>
+			</entity>
+			<entity id="356" name="countrylanguage" fq-name="world.countrylanguage" order="355" color-bg="248,214,205" font="Segoe UI:9:0" x="40" y="778">
+				<path name="world"/>
+			</entity>
+		</data-source>
+	</entities>
+	<relations>
+		<relation name="fk_film_actor_actor" fq-name="sakila.film_actor.fk_film_actor_actor" type="fk" pk-ref="230" fk-ref="239"/>
+		<relation name="fk_customer_address" fq-name="sakila.customer.fk_customer_address" type="fk" pk-ref="232" fk-ref="236">
+			<bend type="abs" x="1197" y="10"/>
+			<bend type="abs" x="1546" y="10"/>
+		</relation>
+		<relation name="fk_staff_address" fq-name="sakila.staff.fk_staff_address" type="fk" pk-ref="232" fk-ref="250"/>
+		<relation name="fk_store_address" fq-name="sakila.store.fk_store_address" type="fk" pk-ref="232" fk-ref="252"/>
+		<relation name="fk_film_category_category" fq-name="sakila.film_category.fk_film_category_category" type="fk" pk-ref="233" fk-ref="240"/>
+		<relation name="fk_address_city" fq-name="sakila.address.fk_address_city" type="fk" pk-ref="234" fk-ref="232"/>
+		<relation name="fk_city_country" fq-name="sakila.city.fk_city_country" type="fk" pk-ref="235" fk-ref="234"/>
+		<relation name="fk_payment_customer" fq-name="sakila.payment.fk_payment_customer" type="fk" pk-ref="236" fk-ref="246"/>
+		<relation name="fk_rental_customer" fq-name="sakila.rental.fk_rental_customer" type="fk" pk-ref="236" fk-ref="247"/>
+		<relation name="fk_film_actor_film" fq-name="sakila.film_actor.fk_film_actor_film" type="fk" pk-ref="238" fk-ref="239"/>
+		<relation name="fk_film_category_film" fq-name="sakila.film_category.fk_film_category_film" type="fk" pk-ref="238" fk-ref="240"/>
+		<relation name="fk_inventory_film" fq-name="sakila.inventory.fk_inventory_film" type="fk" pk-ref="238" fk-ref="243"/>
+		<relation name="fk_rental_inventory" fq-name="sakila.rental.fk_rental_inventory" type="fk" pk-ref="243" fk-ref="247"/>
+		<relation name="fk_film_language" fq-name="sakila.film.fk_film_language" type="fk" pk-ref="244" fk-ref="238"/>
+		<relation name="fk_film_language_original" fq-name="sakila.film.fk_film_language_original" type="fk" pk-ref="244" fk-ref="238"/>
+		<relation name="fk_payment_rental" fq-name="sakila.payment.fk_payment_rental" type="fk" pk-ref="247" fk-ref="246"/>
+		<relation name="fk_payment_staff" fq-name="sakila.payment.fk_payment_staff" type="fk" pk-ref="250" fk-ref="246">
+			<bend type="abs" x="380" y="520"/>
+			<bend type="abs" x="860" y="520"/>
+			<bend type="abs" x="1197" y="520"/>
+		</relation>
+		<relation name="fk_rental_staff" fq-name="sakila.rental.fk_rental_staff" type="fk" pk-ref="250" fk-ref="247">
+			<bend type="abs" x="860" y="31"/>
+			<bend type="abs" x="1197" y="31"/>
+		</relation>
+		<relation name="fk_store_staff" fq-name="sakila.store.fk_store_staff" type="fk" pk-ref="250" fk-ref="252"/>
+		<relation name="fk_customer_store" fq-name="sakila.customer.fk_customer_store" type="fk" pk-ref="252" fk-ref="236"/>
+		<relation name="fk_inventory_store" fq-name="sakila.inventory.fk_inventory_store" type="fk" pk-ref="252" fk-ref="243"/>
+		<relation name="fk_staff_store" fq-name="sakila.staff.fk_staff_store" type="fk" pk-ref="252" fk-ref="250"/>
+		<relation name="city_ibfk_1" fq-name="world.city.city_ibfk_1" type="fk" pk-ref="355" fk-ref="354"/>
+		<relation name="countryLanguage_ibfk_1" fq-name="world.countrylanguage.countryLanguage_ibfk_1" type="fk" pk-ref="355" fk-ref="356"/>
+	</relations>
+</diagram>
